@@ -41,7 +41,7 @@ console.log(x); //Output: 18
 
 
 //Soal 5
-let numberr = parseFloat(22); //menggantinya di parseFloat ini dan 22 disni adalah genap positif dan jika diganti maka akan berbeda.
+let numberr = 22; //menggantinya di parseFloat ini dan 22 disni adalah genap positif dan jika diganti maka akan berbeda.
 if (numberr % 2 === 0) {
     if (numberr > 0) {
         console.log('genap positif');
@@ -113,7 +113,7 @@ let tahun = 2001;
 let hasilKabisat = cekKabisat(tahun);
 console.log(hasilKabisat); //Output: false
 
-
+ 
 //Soal 10
 for (let i = 1; i <= 50; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
@@ -136,11 +136,11 @@ console.log(y1); //Output: 10
 
 //Soal 12
 let vle1 = 0;
-for (i = 1; i <= 100; i += 2){
+for (i = 1; i <= 100; i += 2){ //jika incrementnya angka 1 maka akan menampilkan angka normal yang berurutan dari 1,2,3,4.....
    vle1 += i;  
 }
 console.log(vle1);
-
+ 
 //Soal 13
 let bintang = '';
 for (let str = '0'; str < 5; str++) {
