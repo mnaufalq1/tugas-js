@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input type="text" placeholder="Masukkan Nama Anda" id="nama" />
+      <input type="number" placeholder="Masukkan Umur Anda" id="umur" min="0" />
+      <input type="text" placeholder="Masukkan Kelas Anda" id="kelas" />
+      <button id="tambah">Tambah</button>
+    </div>
+    <table id="table">
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>Umur</th>
+          <th>Kelas</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+    <p>Total Siswa: <span id="jumlah-siswa">0</span></p>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- Tugas Hari ke 3:
+
+*Dynamic Table Manager*
+
+Buat aplikasi manajemen data siswa.
+
+Pengguna dapat menambahkan data:
+- Nama
+- Umur
+- Kelas
+
+Setelah ditambahkan:
+- Data muncul dalam tabel.
+- Setiap baris memiliki tombol Edit dan Hapus.
+- Edit memungkinkan pengguna mengubah data yang sudah ada.
+- Hapus menghilangkan data dari tabel.
+- Tampilkan total jumlah siswa di bawah tabel.
+
+Ketentuan:
+- Seluruh perubahan harus langsung tercermin pada DOM.
+- Gunakan event untuk menangani seluruh aksi pengguna.
+- Data tabel harus dibuat dan diperbarui menggunakan DOM API.
+- Jangan membuat ulang seluruh tabel ketika hanya satu baris yang berubah.
+
+_*Tolong dikerjakan sesuai dengan ketentuan yang ada, dan pastikan apa yang dikerjakan benar² difahami*_ -->
